@@ -26,6 +26,7 @@ export default function ChemicalApp() {
   return (
     <div>
       <Container className='w-50 text-center p-5 my-5'>
+        <div>Danh sách hóa học</div>
         {/* <Form style={{textAlign:'center',}}>
           <Input style={{width:"50%",textAlign:'center',margin:"15px auto"}} type='text' placeholder='Search'value={text} onChange={(e)=>{searchText(e.target.value)}} />
           <Button onClick={()=>search(text)}>Search</Button>
