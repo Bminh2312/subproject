@@ -1,10 +1,15 @@
 
 
+import ChemicalApp from "./components/ChemicalApp";
+
+
 
 function App() {
+
+
   return (
     <div className="App">
-      Alo
+      <ChemicalApp/>
     </div>
   );
 }
