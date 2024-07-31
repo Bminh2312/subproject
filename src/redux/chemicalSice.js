@@ -54,7 +54,7 @@ const chemicalSiceSlice = createSlice({
            
         },
         searchChemicalByid(state,action){
-            state.chemicals = state.chemicals.map(item =>item.name.search(action.payload))
+            state.chemicals = state.chemicals.filter(item =>item.name === action.payload)
             console.log(state.chemicals)
            
         },
